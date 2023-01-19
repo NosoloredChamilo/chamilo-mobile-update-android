@@ -16,7 +16,7 @@ Añadir la plataforma Android y los plugins necesarios
 
 ```
 cordova platform add android@10.1.2
-cordova platform add android@9.0.0
+cordova platform add android@9.0.0 se necesita JDK 8 JDK 8 ('1.8.*')
 
 Android 13 (nivel de API 33)
 Android 12 (niveles de API 31 y 32)
