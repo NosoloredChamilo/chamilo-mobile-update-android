@@ -102,3 +102,63 @@ Plugin "cordova-plugin-file-opener2" already installed on browser.
 Adding cordova-plugin-file-opener2 to package.json
 
 ```
+```
+cordova platform add android@11
+Using cordova-fetch for cordova-android@11
+Adding android project...
+android-targetSdkVersion should be greater than or equal to 32.
+Creating Cordova project for the Android platform:
+        Path: platforms\android
+        Package: org.chamilo.app
+        Name: Chamilo Mobile
+        Activity: MainActivity
+        Android Target SDK: android-32
+        Android Compile SDK: 29
+Subproject Path: CordovaLib
+Subproject Path: app
+Android project created with cordova-android@11.0.0
+The "<splash>" tags were detected and are no longer supported. Please migrate to the "preference" tag "AndroidWindowSplashScreenAnimatedIcon".
+Installing "cordova-plugin-android-permissions" for android
+Installing "cordova-plugin-cache-clear" for android
+Installing "cordova-plugin-device" for android
+Installing "cordova-plugin-dialogs" for android
+Installing "cordova-plugin-file" for android
+
+The Android Persistent storage location now defaults to "Internal". Please check this plugin's README to see if your application needs any changes in its config.xml.
+
+If this is a new application no changes are required.
+
+If this is an update to an existing application that did not specify an "AndroidPersistentFileLocation" you may need to add:
+
+      "<preference name="AndroidPersistentFileLocation" value="Compatibility" />"
+
+to config.xml in order for the application to find previously stored files.
+
+Installing "cordova-plugin-file-opener2" for android
+Subproject Path: CordovaLib
+Subproject Path: app
+Installing "cordova-plugin-file-transfer" for android
+Plugin dependency "cordova-plugin-file@6.0.2" already fetched, using that version.
+Dependent plugin "cordova-plugin-file" already installed on android.
+Installing "cordova-plugin-filechooser" for android
+Installing "cordova-plugin-filepath" for android
+Installing "cordova-plugin-inappbrowser" for android
+Installing "cordova-plugin-network-information" for android
+Installing "cordova-plugin-pdialog" for android
+Installing "cordova-plugin-screen-orientation" for android
+Plugin dependency "es6-promise-plugin@4.2.2" already fetched, using that version.
+Installing "es6-promise-plugin" for android
+Installing "cordova-plugin-spinner" for android
+Installing "cordova-plugin-splashscreen" for android
+Plugin doesn't support this project's cordova-android version. cordova-android: 11.0.0, failed version requirement: >=3.6.0 <11.0.0
+Skipping 'cordova-plugin-splashscreen' for android
+Installing "cordova-plugin-whitelist" for android
+Plugin doesn't support this project's cordova-android version. cordova-android: 11.0.0, failed version requirement: >=4.0.0 <10.0.0
+Skipping 'cordova-plugin-whitelist' for android
+Installing "cordova-plugin-zip" for android
+Plugin dependency "cordova-plugin-file@6.0.2" already fetched, using that version.
+Dependent plugin "cordova-plugin-file" already installed on android.
+Dependent plugin "es6-promise-plugin" already installed on android.
+The "<splash>" tags were detected and are no longer supported. Please migrate to the "preference" tag "AndroidWindowSplashScreenAnimatedIcon".
+Cannot set properties of null (setting 'text')
+```
